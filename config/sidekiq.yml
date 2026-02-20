@@ -1,0 +1,6 @@
+:concurrency: 2 # 线程数，建议与数据库连接池保持一致
+:queues:
+  - [approved, 2] # 数字代表权重, 审批队列
+  - [article_message, 2] # 文章消息队列
+  - [es_index_queue, 2] # 文章es索引队列
+  - [low, 1]
