@@ -73,8 +73,8 @@ gem "sidekiq", "~> 8.0", ">= 8.0.1"
 
 # redis
 gem "redis", "~> 5.0", ">= 5.0.1"
-gem "hiredis-client", "~> 0.26.4"
-gem "redis-client", "~> 0.26.4"
+gem "hiredis-client", "~> 0.28.0"
+gem "redis-client", "~> 0.28.0"
 
 # elasticsearch
 gem "elasticsearch", "~> 8.19", ">= 8.19.1"
