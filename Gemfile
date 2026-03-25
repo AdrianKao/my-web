@@ -69,7 +69,7 @@ gem "grape-entity", "~> 1.0", ">= 1.0.1"
 # 分页
 gem "kaminari", "~> 1.2", ">= 1.2.2"
 # 异步任务队列
-gem "sidekiq", "~> 8.0", ">= 8.0.1"
+gem "sidekiq", "~> 8.1"
 
 # redis
 gem "redis", "~> 5.0", ">= 5.0.1"
