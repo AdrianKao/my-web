@@ -9,4 +9,6 @@
     end
 
     mount ::V1::Base # 挂载具体的业务逻辑
+    # 后面会增加新的页面，每个页面都有自己的 API 路由
+    mount ::V1::PrReview
   end
